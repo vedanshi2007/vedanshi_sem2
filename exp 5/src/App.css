@@ -1,0 +1,57 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f2f5;
+  font-family: sans-serif;
+}
+
+.counter-card {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  text-align: center;
+  width: 350px;
+}
+
+.counter-card h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #333;
+  line-height: 1.2;
+}
+
+.counter-display {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #000;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  background-color: #0d6efd;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s;
+}
+
+.btn:hover {
+  background-color: #0b5ed7;
+}
+
+.reset-btn {
+  width: 100px;
+}
